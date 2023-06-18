@@ -24,8 +24,6 @@ A score for each ML model was then computed using the root mean squared error (R
 
 where 𝑇 is a set of tasks and Error(t) is the selection error calculated from Equation 1.
 
-
-
 # Installation and Setup
 
 ## Codes and Resources Used
@@ -74,7 +72,7 @@ It can be observed that the distributions differ considerably from each other, a
 
 ![image](https://github.com/MariliaElia/supplier-selection-ml-model/assets/24305018/b3d237e6-4ad6-4dae-ade9-1920df493613)
 
-It is observed that the maximum selection error of most suppliers is less than 0.10. Supplier 56 has the smallest error distribution with an RMSE of 0.0256, meaning that the costs of this supplier for each task are very close to the costs of the actual best suppliers and they would be a great choice if selected to perform all tasks.
+It is observed that the maximum selection error of most suppliers is less than 0.10. Supplier 56 has the smallest error distribution with an RMSE of 0.0256, meaning that the costs of this supplier for each task are very close to the costs of the actual best suppliers and they would be a great choice if selected to perform all tasks. This supplier can be used as a benchmark for the ML models.
 
 ### Figure 3
 
@@ -108,7 +106,6 @@ Results obtained from each approach for each model can be seen below.
 
 ### Random Forest Regressor Results
 ![image](https://github.com/MariliaElia/supplier-selection-ml-model/assets/24305018/fadb722b-c8fd-4cf6-b48c-9e5742e14354)
-
 
 # Conclusions
 Comparing the R-squared and RMSE scores obtained before cross-validation and hyper-parameter optimisation, it is noted that the RMSE of MLP Regressor is higher than the one of Random Forest Regressor, while the R-squared value is lower. This perceives that the Random Forest algorithm fits the data with better performance than the MLP Regressor.
