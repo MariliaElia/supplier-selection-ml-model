@@ -1,6 +1,6 @@
 # Supplier selection using Multi-Layer Perceptron and Random Forest Regressors
 
-Developed as a course project in Business Analytics: Operational Research and Risk Analysis program at Alliance Manchester Business School.
+Developed as a group project in Business Analytics: Operational Research and Risk Analysis program at Alliance Manchester Business School.
 
 # Project Overview
 
